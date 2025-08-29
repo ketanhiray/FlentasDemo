@@ -26,7 +26,7 @@ public class ContactFormTest extends BaseComp {
 		contactPage.goToContactPage();
 	}
 
-	@Description("This test verifies the Contact us form validation")
+	@Description("This test verifies the Contact us form validation-PositiveTest")
 	@Test(priority = 5, dataProvider = "positiveContactData", dataProviderClass = ContactFormDataProvider.class)
 	public void testPositiveFormSubmission(String name, String email, String company, String phone, String message) {
 		// wait for form field to be visible
@@ -48,7 +48,8 @@ public class ContactFormTest extends BaseComp {
 		driver.navigate().refresh();
 	}
 
-	@Test(dataProvider = "negativeContactData", dataProviderClass = ContactFormDataProvider.class)
+	@Description("This test verifies the Contact us form validation-NegativeTest")
+	@Test(priority = 6, dataProvider = "negativeContactData", dataProviderClass = ContactFormDataProvider.class)
 	public void testNegativeFormValidation(String name, String email, String company, String phone, String message) {
 		contactPage.fillForm(name, email, company, phone, message);
 
