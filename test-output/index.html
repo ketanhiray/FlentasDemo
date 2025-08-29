@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Flentas_Test_Suite" class="navigator-link">
+              <span class="suite-name border-failed">Flentas Test Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Flentas_Test_Suite" class="navigator-link ">
+                    <span>C:\Users\Admin\eclipse-workspace\FlentasDemo\End2EndTesting.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Flentas_Test_Suite" class="navigator-link ">
+                    <span class="test-stats">5 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Flentas_Test_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Flentas_Test_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Flentas_Test_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Flentas_Test_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Flentas_Test_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">11 methods, 3 failed,   8 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Flentas_Test_Suite" class="hide-methods failed suite-Flentas_Test_Suite"> (hide)</a> <!-- hide-methods failed suite-Flentas_Test_Suite -->
+                      <a href="#" panel-name="suite-Flentas_Test_Suite" class="show-methods failed suite-Flentas_Test_Suite"> (show)</a> <!-- show-methods failed suite-Flentas_Test_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Flentas_Test_Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Flentas_Test_Suite" title="com.flentas.tests.ContactFormTest" class="method navigator-link" hash-for-method="testNegativeFormValidation(Invalid Email, invalid-email, Company, 1234567890, Test)">testNegativeFormValidation(Invalid Email, invalid-email, Company, 1234567890, Test)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Flentas_Test_Suite" title="com.flentas.tests.ContactFormTest" class="method navigator-link" hash-for-method="testPositiveFormSubmission(John Doe, john.doe@example.com, flentas, 1234567890, Please contact me regarding services. This is a...)">testPositiveFormSubmission(John Doe, john.doe@example.com, flentas, 1234567890, Please contact me regarding services. This is a...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Flentas_Test_Suite" title="com.flentas.tests.ContactFormTest" class="method navigator-link" hash-for-method="testPositiveFormSubmission(Test QA, Test.qa@example.com, flentas, 9876543210, This is a test message generated by automation sc...)">testPositiveFormSubmission(Test QA, Test.qa@example.com, flentas, 9876543210, This is a test message generated by automation sc...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Flentas_Test_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Flentas_Test_Suite" class="hide-methods passed suite-Flentas_Test_Suite"> (hide)</a> <!-- hide-methods passed suite-Flentas_Test_Suite -->
+                      <a href="#" panel-name="suite-Flentas_Test_Suite" class="show-methods passed suite-Flentas_Test_Suite"> (show)</a> <!-- show-methods passed suite-Flentas_Test_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Flentas_Test_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Flentas_Test_Suite" title="com.flentas.tests.CareerPageTest" class="method navigator-link" hash-for-method="applyForQaLeadJob">applyForQaLeadJob</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Flentas_Test_Suite" title="com.flentas.tests.FindBlogTest" class="method navigator-link" hash-for-method="findAndOpenBlog">findAndOpenBlog</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Flentas_Test_Suite" title="com.flentas.tests.BrokenLinksTest" class="method navigator-link" hash-for-method="printAllLinksWithResponseCode">printAllLinksWithResponseCode</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Flentas_Test_Suite" title="com.flentas.tests.ContactFormTest" class="method navigator-link" hash-for-method="testNegativeFormValidation(, , , , )">testNegativeFormValidation(, , , , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Flentas_Test_Suite" title="com.flentas.tests.ContactFormTest" class="method navigator-link" hash-for-method="testNegativeFormValidation(, invalid@, , 000, )">testNegativeFormValidation(, invalid@, , 000, )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Flentas_Test_Suite" title="com.flentas.tests.ContactFormTest" class="method navigator-link" hash-for-method="testNegativeFormValidation(Test, Test@, , Missing phone, )">testNegativeFormValidation(Test, Test@, , Missing phone, )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Flentas_Test_Suite" title="com.flentas.tests.ContactFormTest" class="method navigator-link" hash-for-method="testNegativeFormValidation(Invalid Name, test@test.com, Company, abc, Test)">testNegativeFormValidation(Invalid Name, test@test.com, Company, abc, Test)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Flentas_Test_Suite" title="com.flentas.tests.CheckServicesTest" class="method navigator-link" hash-for-method="validateAllServicesTitles">validateAllServicesTitles</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Flentas_Test_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Flentas_Test_Suite" class="panel Flentas_Test_Suite">
+          <div class="suite-Flentas_Test_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.flentas.tests.ContactFormTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNegativeFormValidation(Invalid Email, invalid-email, Company, 1234567890, Test)">
+                  </a> <!-- testNegativeFormValidation(Invalid Email, invalid-email, Company, 1234567890, Test) -->
+                  <span class="method-name">testNegativeFormValidation</span>
+                  <span class="parameters">(Invalid Email,invalid-email,Company,1234567890,Test)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Submit button should be disabled, but it was enabled. Test data: Invalid Email, invalid-email
+	at com.flentas.tests.ContactFormTest.testNegativeFormValidation(ContactFormTest.java:62)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPositiveFormSubmission(John Doe, john.doe@example.com, flentas, 1234567890, Please contact me regarding services. This is a...)">
+                  </a> <!-- testPositiveFormSubmission(John Doe, john.doe@example.com, flentas, 1234567890, Please contact me regarding services. This is a...) -->
+                  <span class="method-name">testPositiveFormSubmission</span>
+                  <span class="parameters">(John Doe,john.doe@example.com,flentas,1234567890,Please contact me regarding services. This is a test message generated by automation script.)</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on windows (15344bf7a38d3dbe175df0b94428bf3c)] -&gt; id: submitForm2] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.35.0&apos;, revision: &apos;1c58e5028b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49928}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49928/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 15344bf7a38d3dbe175df0b94428bf3c
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.flentas.tests.ContactFormTest.testPositiveFormSubmission(ContactFormTest.java:38)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPositiveFormSubmission(Test QA, Test.qa@example.com, flentas, 9876543210, This is a test message generated by automation sc...)">
+                  </a> <!-- testPositiveFormSubmission(Test QA, Test.qa@example.com, flentas, 9876543210, This is a test message generated by automation sc...) -->
+                  <span class="method-name">testPositiveFormSubmission</span>
+                  <span class="parameters">(Test QA,Test.qa@example.com,flentas,9876543210,This is a test message generated by automation script.)</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on windows (15344bf7a38d3dbe175df0b94428bf3c)] -&gt; id: submitForm2] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.35.0&apos;, revision: &apos;1c58e5028b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49928}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49928/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 15344bf7a38d3dbe175df0b94428bf3c
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.flentas.tests.ContactFormTest.testPositiveFormSubmission(ContactFormTest.java:38)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Flentas_Test_Suite-class-failed -->
+          <div class="suite-Flentas_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.flentas.tests.BrokenLinksTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="printAllLinksWithResponseCode">
+                  </a> <!-- printAllLinksWithResponseCode -->
+                  <span class="method-name">printAllLinksWithResponseCode</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Flentas_Test_Suite-class-passed -->
+          <div class="suite-Flentas_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.flentas.tests.ContactFormTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNegativeFormValidation(, , , , )">
+                  </a> <!-- testNegativeFormValidation(, , , , ) -->
+                  <span class="method-name">testNegativeFormValidation</span>
+                  <span class="parameters">(,,,,)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNegativeFormValidation(, invalid@, , 000, )">
+                  </a> <!-- testNegativeFormValidation(, invalid@, , 000, ) -->
+                  <span class="method-name">testNegativeFormValidation</span>
+                  <span class="parameters">(,invalid@,,000,)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNegativeFormValidation(Test, Test@, , Missing phone, )">
+                  </a> <!-- testNegativeFormValidation(Test, Test@, , Missing phone, ) -->
+                  <span class="method-name">testNegativeFormValidation</span>
+                  <span class="parameters">(Test,Test@,,Missing phone,)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNegativeFormValidation(Invalid Name, test@test.com, Company, abc, Test)">
+                  </a> <!-- testNegativeFormValidation(Invalid Name, test@test.com, Company, abc, Test) -->
+                  <span class="method-name">testNegativeFormValidation</span>
+                  <span class="parameters">(Invalid Name,test@test.com,Company,abc,Test)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Flentas_Test_Suite-class-passed -->
+          <div class="suite-Flentas_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.flentas.tests.FindBlogTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="findAndOpenBlog">
+                  </a> <!-- findAndOpenBlog -->
+                  <span class="method-name">findAndOpenBlog</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Flentas_Test_Suite-class-passed -->
+          <div class="suite-Flentas_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.flentas.tests.CareerPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="applyForQaLeadJob">
+                  </a> <!-- applyForQaLeadJob -->
+                  <span class="method-name">applyForQaLeadJob</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Flentas_Test_Suite-class-passed -->
+          <div class="suite-Flentas_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.flentas.tests.CheckServicesTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateAllServicesTitles">
+                  </a> <!-- validateAllServicesTitles -->
+                  <span class="method-name">validateAllServicesTitles</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Flentas_Test_Suite-class-passed -->
+        </div> <!-- panel Flentas_Test_Suite -->
+        <div panel-name="test-xml-Flentas_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Admin\eclipse-workspace\FlentasDemo\End2EndTesting.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Flentas Test Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Careers Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.flentas.tests.CareerPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Careers Test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Broken Links&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.flentas.tests.BrokenLinksTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Broken Links --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Blog Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.flentas.tests.FindBlogTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Blog Test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Services Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.flentas.tests.CheckServicesTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Services Test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Contact Form Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.flentas.tests.ContactFormTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Contact Form Test --&gt;
+&lt;/suite&gt; &lt;!-- Flentas Test Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Flentas_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Flentas Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Careers Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Broken Links (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Blog Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Services Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Contact Form Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Flentas_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Flentas Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Flentas_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Flentas Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Flentas_Test_Suite');
+function tableData_Flentas_Test_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(11);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'applyForQaLeadJob')
+data.setCell(0, 2, 'com.flentas.tests.CareerPageTest')
+data.setCell(0, 3, 33512);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testNegativeFormValidation')
+data.setCell(1, 2, 'com.flentas.tests.ContactFormTest')
+data.setCell(1, 3, 7353);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'findAndOpenBlog')
+data.setCell(2, 2, 'com.flentas.tests.FindBlogTest')
+data.setCell(2, 3, 7296);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'validateAllServicesTitles')
+data.setCell(3, 2, 'com.flentas.tests.CheckServicesTest')
+data.setCell(3, 3, 7167);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testNegativeFormValidation')
+data.setCell(4, 2, 'com.flentas.tests.ContactFormTest')
+data.setCell(4, 3, 7164);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testNegativeFormValidation')
+data.setCell(5, 2, 'com.flentas.tests.ContactFormTest')
+data.setCell(5, 3, 7121);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testNegativeFormValidation')
+data.setCell(6, 2, 'com.flentas.tests.ContactFormTest')
+data.setCell(6, 3, 7070);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testPositiveFormSubmission')
+data.setCell(7, 2, 'com.flentas.tests.ContactFormTest')
+data.setCell(7, 3, 6648);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testPositiveFormSubmission')
+data.setCell(8, 2, 'com.flentas.tests.ContactFormTest')
+data.setCell(8, 3, 6610);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testNegativeFormValidation')
+data.setCell(9, 2, 'com.flentas.tests.ContactFormTest')
+data.setCell(9, 3, 6528);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'printAllLinksWithResponseCode')
+data.setCell(10, 2, 'com.flentas.tests.BrokenLinksTest')
+data.setCell(10, 3, 5146);
+window.suiteTableData['Flentas_Test_Suite']= { tableData: data, tableDiv: 'times-div-Flentas_Test_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Flentas_Test_Suite">
+              </div> <!-- times-div-Flentas_Test_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Flentas_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Flentas Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Flentas_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Flentas_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.flentas.tests.CareerPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">applyForQaLeadJob</span>
+                <span class="method-start">4224 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">37814 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.flentas.tests.BrokenLinksTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">38155 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">printAllLinksWithResponseCode</span>
+                <span class="method-start">42929 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">48075 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.flentas.tests.FindBlogTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">48311 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">findAndOpenBlog</span>
+                <span class="method-start">51350 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">58650 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.flentas.tests.CheckServicesTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">validateAllServicesTitles</span>
+                <span class="method-start">58902 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">66071 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.flentas.tests.ContactFormTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">66316 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testNegativeFormValidation(, invalid@, , 000, )</span>
+                <span class="method-start">71415 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testNegativeFormValidation(, , , , )</span>
+                <span class="method-start">78586 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testNegativeFormValidation(Test, Test@, , Missing phone, )</span>
+                <span class="method-start">85661 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testNegativeFormValidation(Invalid Email, invalid-email, Company, 1234567890, Test)</span>
+                <span class="method-start">93020 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testNegativeFormValidation(Invalid Name, test@test.com, Company, abc, Test)</span>
+                <span class="method-start">99553 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testPositiveFormSubmission(Test QA, Test.qa@example.com, flentas, 9876543210, This is a test message generated by automation sc...)</span>
+                <span class="method-start">106680 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testPositiveFormSubmission(John Doe, john.doe@example.com, flentas, 1234567890, Please contact me regarding services. This is a...)</span>
+                <span class="method-start">113328 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">119954 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

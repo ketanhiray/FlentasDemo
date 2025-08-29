@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Flentas Test Suite" parallel="false">
+
+	<test name="Careers Test">
+		<classes>
+			<class name="com.flentas.tests.CareerPageTest" />
+		</classes>
+	</test>
+	<test name="Broken Links">
+		<classes>
+			<class name="com.flentas.tests.BrokenLinksTest" />
+		</classes>
+	</test>
+	<test name="Blog Test">
+		<classes>
+			<class name="com.flentas.tests.FindBlogTest" />
+		</classes>
+	</test>
+	<test name="Services Test">
+		<classes>
+			<class name="com.flentas.tests.CheckServicesTest" />
+		</classes>
+	</test>
+
+	<test name="Contact Form Test">
+		<classes>
+			<class name="com.flentas.tests.ContactFormTest" />
+		</classes>
+	</test>
+
+
+</suite>
