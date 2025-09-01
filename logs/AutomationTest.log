@@ -1,0 +1,276 @@
+2025-09-01 22:35:14 INFO  com.flentas.base.BaseComp - Loading configuration...
+2025-09-01 22:35:15 INFO  com.flentas.base.BaseComp - Browser selected: chrome
+2025-09-01 22:35:17 INFO  com.flentas.base.BaseComp - ChromeDriver initialized
+2025-09-01 22:35:17 DEBUG com.flentas.base.BaseComp - Driver configured with implicit wait: 10s and maximized window
+2025-09-01 22:35:21 INFO  com.flentas.base.BaseComp - Navigated to URL: https://www.flentas.com/
+2025-09-01 22:36:05 INFO  com.flentas.base.BaseComp - Driver quit successfully
+2025-09-01 22:36:05 INFO  com.flentas.base.BaseComp - Loading configuration...
+2025-09-01 22:36:05 INFO  com.flentas.base.BaseComp - Browser selected: chrome
+2025-09-01 22:36:05 INFO  com.flentas.base.BaseComp - ChromeDriver initialized
+2025-09-01 22:36:05 DEBUG com.flentas.base.BaseComp - Driver configured with implicit wait: 10s and maximized window
+2025-09-01 22:36:09 INFO  com.flentas.base.BaseComp - Navigated to URL: https://www.flentas.com/
+2025-09-01 22:36:20 INFO  com.flentas.base.BaseComp - Driver quit successfully
+2025-09-01 22:36:20 INFO  com.flentas.base.BaseComp - Loading configuration...
+2025-09-01 22:36:20 INFO  com.flentas.base.BaseComp - Browser selected: chrome
+2025-09-01 22:36:21 INFO  com.flentas.base.BaseComp - ChromeDriver initialized
+2025-09-01 22:36:21 DEBUG com.flentas.base.BaseComp - Driver configured with implicit wait: 10s and maximized window
+2025-09-01 22:36:24 INFO  com.flentas.base.BaseComp - Navigated to URL: https://www.flentas.com/
+2025-09-01 22:36:34 INFO  com.flentas.base.BaseComp - Driver quit successfully
+2025-09-01 22:36:34 INFO  com.flentas.base.BaseComp - Loading configuration...
+2025-09-01 22:36:34 INFO  com.flentas.base.BaseComp - Browser selected: chrome
+2025-09-01 22:36:35 INFO  com.flentas.base.BaseComp - ChromeDriver initialized
+2025-09-01 22:36:35 DEBUG com.flentas.base.BaseComp - Driver configured with implicit wait: 10s and maximized window
+2025-09-01 22:36:37 INFO  com.flentas.base.BaseComp - Navigated to URL: https://www.flentas.com/
+2025-09-01 22:36:41 INFO  com.flentas.base.BaseComp - Driver quit successfully
+2025-09-01 22:36:41 INFO  com.flentas.base.BaseComp - Loading configuration...
+2025-09-01 22:36:41 INFO  com.flentas.base.BaseComp - Browser selected: chrome
+2025-09-01 22:36:42 INFO  com.flentas.base.BaseComp - ChromeDriver initialized
+2025-09-01 22:36:42 DEBUG com.flentas.base.BaseComp - Driver configured with implicit wait: 10s and maximized window
+2025-09-01 22:36:45 INFO  com.flentas.base.BaseComp - Navigated to URL: https://www.flentas.com/
+2025-09-01 22:37:25 INFO  com.flentas.base.BaseComp - Driver quit successfully
+2025-09-01 22:52:51 INFO  com.flentas.tests.CareerPageTest - Initializing WebDriver for CareerPageTest...
+2025-09-01 22:52:51 INFO  com.flentas.base.BaseComp - Loading configuration...
+2025-09-01 22:52:51 INFO  com.flentas.base.BaseComp - Browser selected: chrome
+2025-09-01 22:52:52 INFO  com.flentas.base.BaseComp - ChromeDriver initialized
+2025-09-01 22:52:52 DEBUG com.flentas.base.BaseComp - Driver configured with implicit wait: 10s and maximized window
+2025-09-01 22:52:56 INFO  com.flentas.base.BaseComp - Navigated to URL: https://www.flentas.com/
+2025-09-01 22:52:56 INFO  com.flentas.tests.CareerPageTest - Starting test: applyForQaLeadJob
+2025-09-01 22:52:56 DEBUG com.flentas.tests.CareerPageTest - Navigated to HomePage
+2025-09-01 22:53:13 DEBUG com.flentas.tests.CareerPageTest - Clicked on Careers
+2025-09-01 22:53:16 DEBUG com.flentas.tests.CareerPageTest - Clicked on Join Us
+2025-09-01 22:53:17 DEBUG com.flentas.tests.CareerPageTest - Clicked on Browse Jobs
+2025-09-01 22:53:17 INFO  com.flentas.tests.CareerPageTest - Searched for job: QA Lead
+2025-09-01 22:53:19 INFO  com.flentas.tests.CareerPageTest - Opened QA Lead job details
+2025-09-01 22:53:21 INFO  com.flentas.tests.CareerPageTest - Clicked Apply on QA Lead job
+2025-09-01 22:53:21 DEBUG com.flentas.tests.CareerPageTest - Fetched applicant data from CSV
+2025-09-01 22:53:25 INFO  com.flentas.tests.CareerPageTest - Filled application form
+2025-09-01 22:53:32 INFO  com.flentas.tests.CareerPageTest - Submitted application form
+2025-09-01 22:53:42 ERROR com.flentas.tests.CareerPageTest - Test failed due to unexpected exception: no such element: Unable to locate element: {"method":"xpath","selector":"//h1[normalize-space()='Application Submitted!']"}
+  (Session info: chrome=139.0.7258.155)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ede49ee745002fb49c438d1c8e1f0ea9, findElement {value=//h1[normalize-space()='Application Submitted!'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.155, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59365}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59365/devtoo..., se:cdpVersion: 139.0.7258.155, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ede49ee745002fb49c438d1c8e1f0ea9
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//h1[normalize-space()='Application Submitted!']"}
+  (Session info: chrome=139.0.7258.155)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ede49ee745002fb49c438d1c8e1f0ea9, findElement {value=//h1[normalize-space()='Application Submitted!'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.155, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59365}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59365/devtoo..., se:cdpVersion: 139.0.7258.155, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ede49ee745002fb49c438d1c8e1f0ea9
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:380)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy31.getText(Unknown Source)
+	at com.flentas.pages.ApplicationFormPage.getConfirmationMessage(ApplicationFormPage.java:173)
+	at com.flentas.tests.CareerPageTest.applyForQaLeadJob(CareerPageTest.java:71)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+2025-09-01 22:53:42 INFO  com.flentas.tests.CareerPageTest - Quitting WebDriver for CareerPageTest...
+2025-09-01 22:53:43 INFO  com.flentas.base.BaseComp - Driver quit successfully
+2025-09-01 22:59:08 INFO  com.flentas.tests.CareerPageTest - Initializing WebDriver for CareerPageTest...
+2025-09-01 22:59:08 INFO  com.flentas.base.BaseComp - Loading configuration...
+2025-09-01 22:59:08 INFO  com.flentas.base.BaseComp - Browser selected: chrome
+2025-09-01 22:59:09 INFO  com.flentas.base.BaseComp - ChromeDriver initialized
+2025-09-01 22:59:09 DEBUG com.flentas.base.BaseComp - Driver configured with implicit wait: 10s and maximized window
+2025-09-01 22:59:15 INFO  com.flentas.base.BaseComp - Navigated to URL: https://www.flentas.com/
+2025-09-01 22:59:15 INFO  com.flentas.tests.CareerPageTest - Starting test: applyForQaLeadJob
+2025-09-01 22:59:15 DEBUG com.flentas.tests.CareerPageTest - Navigated to HomePage
+2025-09-01 22:59:32 DEBUG com.flentas.tests.CareerPageTest - Clicked on Careers
+2025-09-01 22:59:34 DEBUG com.flentas.tests.CareerPageTest - Clicked on Join Us
+2025-09-01 22:59:35 DEBUG com.flentas.tests.CareerPageTest - Clicked on Browse Jobs
+2025-09-01 22:59:35 INFO  com.flentas.tests.CareerPageTest - Searched for job: QA Lead
+2025-09-01 22:59:36 INFO  com.flentas.tests.CareerPageTest - Opened QA Lead job details
+2025-09-01 22:59:37 INFO  com.flentas.tests.CareerPageTest - Clicked Apply on QA Lead job
+2025-09-01 22:59:37 DEBUG com.flentas.tests.CareerPageTest - Fetched applicant data from CSV
+2025-09-01 22:59:42 INFO  com.flentas.tests.CareerPageTest - Filled application form
+2025-09-01 22:59:49 INFO  com.flentas.tests.CareerPageTest - Submitted application form
+2025-09-01 22:59:59 ERROR com.flentas.tests.CareerPageTest - Test failed due to unexpected exception: no such element: Unable to locate element: {"method":"xpath","selector":"//h1[normalize-space()='Application Submitted!']"}
+  (Session info: chrome=139.0.7258.155)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4cf007228bd42e2fb7a4b7ddc2b98905, findElement {using=xpath, value=//h1[normalize-space()='Application Submitted!']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.155, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61283}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61283/devtoo..., se:cdpVersion: 139.0.7258.155, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4cf007228bd42e2fb7a4b7ddc2b98905
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//h1[normalize-space()='Application Submitted!']"}
+  (Session info: chrome=139.0.7258.155)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4cf007228bd42e2fb7a4b7ddc2b98905, findElement {using=xpath, value=//h1[normalize-space()='Application Submitted!']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.155, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61283}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61283/devtoo..., se:cdpVersion: 139.0.7258.155, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4cf007228bd42e2fb7a4b7ddc2b98905
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:380)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy32.getText(Unknown Source)
+	at com.flentas.pages.ApplicationFormPage.getConfirmationMessage(ApplicationFormPage.java:173)
+	at com.flentas.tests.CareerPageTest.applyForQaLeadJob(CareerPageTest.java:71)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+2025-09-01 22:59:59 INFO  com.flentas.tests.CareerPageTest - Quitting WebDriver for CareerPageTest...
+2025-09-01 23:00:00 INFO  com.flentas.base.BaseComp - Driver quit successfully
+2025-09-01 23:09:06 INFO  com.flentas.tests.CareerPageTest - Initializing WebDriver for CareerPageTest...
+2025-09-01 23:09:06 INFO  com.flentas.base.BaseComp - Loading configuration...
+2025-09-01 23:09:06 INFO  com.flentas.base.BaseComp - Browser selected: chrome
+2025-09-01 23:09:07 INFO  com.flentas.base.BaseComp - ChromeDriver initialized
+2025-09-01 23:09:07 DEBUG com.flentas.base.BaseComp - Driver configured with implicit wait: 10s and maximized window
+2025-09-01 23:09:11 INFO  com.flentas.base.BaseComp - Navigated to URL: https://www.flentas.com/
+2025-09-01 23:09:11 INFO  com.flentas.tests.CareerPageTest - Starting test: applyForQaLeadJob
+2025-09-01 23:09:11 DEBUG com.flentas.tests.CareerPageTest - Navigated to HomePage
+2025-09-01 23:09:27 DEBUG com.flentas.tests.CareerPageTest - Clicked on Careers
+2025-09-01 23:09:29 DEBUG com.flentas.tests.CareerPageTest - Clicked on Join Us
+2025-09-01 23:09:30 DEBUG com.flentas.tests.CareerPageTest - Clicked on Browse Jobs
+2025-09-01 23:09:30 INFO  com.flentas.tests.CareerPageTest - Searched for job: QA Lead
+2025-09-01 23:09:31 INFO  com.flentas.tests.CareerPageTest - Opened QA Lead job details
+2025-09-01 23:09:32 INFO  com.flentas.tests.CareerPageTest - Clicked Apply on QA Lead job
+2025-09-01 23:09:32 DEBUG com.flentas.tests.CareerPageTest - Fetched applicant data from CSV
+2025-09-01 23:09:36 INFO  com.flentas.tests.CareerPageTest - Filled application form
+2025-09-01 23:09:44 INFO  com.flentas.tests.CareerPageTest - Submitted application form
+2025-09-01 23:09:54 ERROR com.flentas.tests.CareerPageTest - Test failed due to unexpected exception: no such element: Unable to locate element: {"method":"xpath","selector":"//h1[normalize-space()='Application Submitted!']"}
+  (Session info: chrome=139.0.7258.155)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [013cafababe0a786595c956eefc0973b, findElement {value=//h1[normalize-space()='Application Submitted!'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.155, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52884}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52884/devtoo..., se:cdpVersion: 139.0.7258.155, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 013cafababe0a786595c956eefc0973b
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//h1[normalize-space()='Application Submitted!']"}
+  (Session info: chrome=139.0.7258.155)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [013cafababe0a786595c956eefc0973b, findElement {value=//h1[normalize-space()='Application Submitted!'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.155, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52884}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52884/devtoo..., se:cdpVersion: 139.0.7258.155, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 013cafababe0a786595c956eefc0973b
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:380)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy32.getText(Unknown Source)
+	at com.flentas.pages.ApplicationFormPage.getConfirmationMessage(ApplicationFormPage.java:173)
+	at com.flentas.tests.CareerPageTest.applyForQaLeadJob(CareerPageTest.java:71)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+2025-09-01 23:09:54 INFO  com.flentas.tests.CareerPageTest - Quitting WebDriver for CareerPageTest...
+2025-09-01 23:09:54 INFO  com.flentas.base.BaseComp - Driver quit successfully

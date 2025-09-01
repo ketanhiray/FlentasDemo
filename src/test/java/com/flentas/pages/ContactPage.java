@@ -5,12 +5,15 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import com.flentas.base.BaseComp;
+import com.flentas.utils.TestUtil;
 
-public class ContactPage extends BaseComp {
+public class ContactPage {
+
+	private WebDriver driver;
 
 	// Constructor
 	public ContactPage(WebDriver driver) {
-		BaseComp.driver = driver;
+		this.driver = driver;
 		PageFactory.initElements(driver, this);
 	}
 
@@ -39,7 +42,7 @@ public class ContactPage extends BaseComp {
 	private WebElement successMsg;
 
 	public void goToContactPage() {
-		clickElement(contactButton);
+		TestUtil.clickElement(driver, contactButton);
 	}
 
 	public void fillForm(String name, String email, String company, String phone, String message) {
@@ -60,13 +63,8 @@ public class ContactPage extends BaseComp {
 	}
 
 	public void submitForm() {
-		clickElement(submitButton);
+		TestUtil.clickElement(driver, submitButton);
 	}
-//    public void submitForm() {
-//        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", submitButton);
-//        wait.until(ExpectedConditions.elementToBeClickable(submitButton));
-//        submitButton.click();
-//    }
 
 	public boolean isSuccessMessageDisplayed() {
 		return successMsg.isDisplayed();

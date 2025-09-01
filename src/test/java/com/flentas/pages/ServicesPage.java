@@ -30,22 +30,19 @@ public class ServicesPage {
 		return urls;
 	}
 
-	// open all URLs in new tabs and get titles in the same order
-	public void openAllServiceTabsAndAssertTitles(List<String> expectedTitles) throws InterruptedException {
+	// Open all urls in new tabs and return titles in the same order
+	public List<String> openAllServiceTabsAndGetTitles() throws InterruptedException {
 		String parentWindow = driver.getWindowHandle();
 		List<String> urls = getAllServiceUrls();
 		List<String> childTabs = new ArrayList<>();
+		List<String> actualTitles = new ArrayList<>();
 
-		if (urls.size() != expectedTitles.size()) {
-			throw new RuntimeException("Number of URLs and expected titles mismatch!");
-		}
-
-		// open each URL in new tab
+		// open each url in new tab
 		for (String url : urls) {
 			js.executeScript("window.open('" + url + "', '_blank');");
 			Thread.sleep(1000);
 
-			// Find the new tab handle
+			// find the new tab handle
 			for (String handle : driver.getWindowHandles()) {
 				if (!handle.equals(parentWindow) && !childTabs.contains(handle)) {
 					childTabs.add(handle);
@@ -54,15 +51,17 @@ public class ServicesPage {
 			}
 		}
 
-		// Iterate child tabs in order and assert titles
-		for (int i = 0; i < childTabs.size(); i++) {
-			driver.switchTo().window(childTabs.get(i));
+		// collect titles from child tabs
+		for (String tab : childTabs) {
+			driver.switchTo().window(tab);
 			String actualTitle = driver.getTitle();
 			System.out.println("Service Tab Title: " + actualTitle);
-			Assert.assertEquals(actualTitle, expectedTitles.get(i), "Title mismatch for service URL: " + urls.get(i));
+			actualTitles.add(actualTitle);
 		}
 
-		// Switch back to parent
+		// switch back to parent window
 		driver.switchTo().window(parentWindow);
+
+		return actualTitles;
 	}
 }

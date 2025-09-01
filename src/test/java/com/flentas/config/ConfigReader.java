@@ -1,5 +1,6 @@
 package com.flentas.config;
 
+import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
@@ -12,10 +13,9 @@ public class ConfigReader {
 			prop = new Properties();
 			try {
 				// Load from resources
-				InputStream input = ConfigReader.class.getClassLoader().getResourceAsStream("config.properties");
-				if (input == null) {
-					throw new RuntimeException("config.properties not found in resources folder!");
-				}
+				String path = System.getProperty("user.dir") + "/resources/config.properties";
+				FileInputStream input = new FileInputStream(path);
+
 				prop.load(input);
 			} catch (IOException e) {
 				throw new RuntimeException("Failed to load config.properties file!", e);
