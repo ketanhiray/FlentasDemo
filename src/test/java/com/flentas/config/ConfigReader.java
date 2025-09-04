@@ -2,7 +2,6 @@ package com.flentas.config;
 
 import java.io.FileInputStream;
 import java.io.IOException;
-import java.io.InputStream;
 import java.util.Properties;
 
 public class ConfigReader {
@@ -12,7 +11,7 @@ public class ConfigReader {
 		if (prop == null) {
 			prop = new Properties();
 			try {
-				// Load from resources
+				// load from resources
 				String path = System.getProperty("user.dir") + "/resources/config.properties";
 				FileInputStream input = new FileInputStream(path);
 

@@ -4,17 +4,6 @@
   <listeners>
     <listener class-name="com.flentas.listeners.TestListener"/>
   </listeners>
-  <test thread-count="5" name="Careers Test(failed)">
-    <classes>
-      <class name="com.flentas.tests.CareerPageTest">
-        <methods>
-          <include name="applyForQaLeadJob"/>
-          <include name="tearDown"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- com.flentas.tests.CareerPageTest -->
-    </classes>
-  </test> <!-- Careers Test(failed) -->
   <test thread-count="5" name="Contact Form Test(failed)">
     <classes>
       <class name="com.flentas.tests.ContactFormTest">

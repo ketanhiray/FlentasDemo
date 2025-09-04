@@ -5,8 +5,10 @@ import java.util.List;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.flentas.base.BaseComp;
@@ -14,6 +16,7 @@ import com.flentas.pages.ServicesPage;
 
 import io.qameta.allure.Description;
 
+@Listeners(com.flentas.listeners.TestListener.class)
 public class CheckServicesTest extends BaseComp {
 
 	private static final Logger logger = LogManager.getLogger(CheckServicesTest.class);

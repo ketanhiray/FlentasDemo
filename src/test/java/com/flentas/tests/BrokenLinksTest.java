@@ -1,18 +1,19 @@
 package com.flentas.tests;
 
 import com.flentas.pages.HomePage;
-
-import io.qameta.allure.Description;
-
 import com.flentas.base.BaseComp;
 import com.flentas.config.ConfigReader;
 
+import io.qameta.allure.Description;
+
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import java.net.HttpURLConnection;
@@ -20,6 +21,7 @@ import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
 
+@Listeners(com.flentas.listeners.TestListener.class)
 public class BrokenLinksTest extends BaseComp {
 
 	private static final Logger logger = LogManager.getLogger(BrokenLinksTest.class);

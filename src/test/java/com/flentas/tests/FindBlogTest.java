@@ -8,11 +8,14 @@ import io.qameta.allure.Description;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
+@Listeners(com.flentas.listeners.TestListener.class)
 public class FindBlogTest extends BaseComp {
 
 	private static final Logger logger = LogManager.getLogger(FindBlogTest.class);

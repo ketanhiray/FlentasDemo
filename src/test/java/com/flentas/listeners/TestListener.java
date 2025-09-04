@@ -9,55 +9,77 @@ import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 
+import com.flentas.driver.DriverManager;
+
 import java.io.ByteArrayInputStream;
 import java.io.File;
 import java.io.IOException;
-import java.lang.reflect.Field;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 public class TestListener implements ITestListener {
 
-	private static final String SCREENSHOT_DIR = "screenshots/";
+	private static final String SCREENSHOT_DIR = System.getProperty("user.dir") + "/screenshots/";
+
+	@Override
+	public void onStart(ITestContext context) {
+		cleanScreenshotDirectory();
+	}
 
 	@Override
 	public void onTestFailure(ITestResult result) {
-		WebDriver driver = getDriverFromTest(result.getInstance());
+		WebDriver driver = DriverManager.getDriver();
 		if (driver != null) {
-			takeScreenshot(driver, result.getName(), "Failure Screenshot");
+			saveScreenshot(driver, result.getName(), "Failure Screenshot");
 		}
+		System.out.println("TestListener triggered for: " + result.getName());
 	}
 
 	@Override
 	public void onTestSkipped(ITestResult result) {
-		WebDriver driver = getDriverFromTest(result.getInstance());
+		WebDriver driver = DriverManager.getDriver();
 		if (driver != null) {
-			byte[] screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
-			Allure.addAttachment("Skipped Screenshot", new ByteArrayInputStream(screenshot));
+			saveScreenshot(driver, result.getName(), "Skipped Screenshot");
 		}
 	}
 
-	private void takeScreenshot(WebDriver driver, String testName, String label) {
+	private void saveScreenshot(WebDriver driver, String testName, String label) {
 		try {
-			new File(SCREENSHOT_DIR).mkdirs();
+			File dir = new File(SCREENSHOT_DIR);
+			if (!dir.exists()) {
+				dir.mkdirs();
+			}
+			// save the screenshot with data,time
+			String timestamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date());
 			File src = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-			String path = SCREENSHOT_DIR + testName + ".png";
-			FileUtils.copyFile(src, new File(path));
-			System.out.println("Screenshot saved: " + path);
+			File dest = new File(SCREENSHOT_DIR + testName + "_" + timestamp + ".png");
+			FileUtils.copyFile(src, dest);
+			System.out.println("Screenshot saved at: " + dest.getAbsolutePath());
 
-			byte[] bytes = FileUtils.readFileToByteArray(new File(path));
-			Allure.addAttachment(label, new ByteArrayInputStream(bytes));
+			byte[] bytes = FileUtils.readFileToByteArray(dest);
+
+			try {
+				Allure.addAttachment(label, new ByteArrayInputStream(bytes));
+			} catch (IllegalStateException e) {
+				System.err.println("Allure attachment failed: No active test context");
+			}
+
 		} catch (IOException e) {
+			System.err.println("Error saving screenshot: " + e.getMessage());
 			e.printStackTrace();
 		}
 	}
 
-	private WebDriver getDriverFromTest(Object testInstance) {
-		try {
-			Field field = testInstance.getClass().getDeclaredField("driver");
-			field.setAccessible(true);
-			return (WebDriver) field.get(testInstance);
-		} catch (Exception e) {
-			e.printStackTrace();
-			return null;
+	private void cleanScreenshotDirectory() {
+		File dir = new File(SCREENSHOT_DIR);
+		if (dir.exists()) {
+			File[] files = dir.listFiles();
+			if (files != null) {
+				for (File file : files) {
+					file.delete();
+				}
+				System.out.println("Screenshot directory cleaned.");
+			}
 		}
 	}
 
@@ -67,10 +89,6 @@ public class TestListener implements ITestListener {
 
 	@Override
 	public void onTestSuccess(ITestResult result) {
-	}
-
-	@Override
-	public void onStart(ITestContext context) {
 	}
 
 	@Override

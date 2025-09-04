@@ -5,6 +5,7 @@ import org.apache.logging.log4j.Logger;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.flentas.config.ConfigReader;
@@ -13,11 +14,11 @@ import com.flentas.pages.ApplicationFormPage;
 import com.flentas.pages.CareerPage;
 import com.flentas.pages.HomePage;
 import com.flentas.pages.JobDetailsPage;
-
-import com.flentas.utils.*;
+import com.flentas.utils.CSVDataProvider;
 
 import io.qameta.allure.Description;
 
+@Listeners(com.flentas.listeners.TestListener.class)
 public class CareerPageTest extends BaseComp {
 
 	private static final Logger logger = LogManager.getLogger(CareerPageTest.class);

@@ -274,3 +274,300 @@ Session ID: 013cafababe0a786595c956eefc0973b
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 2025-09-01 23:09:54 INFO  com.flentas.tests.CareerPageTest - Quitting WebDriver for CareerPageTest...
 2025-09-01 23:09:54 INFO  com.flentas.base.BaseComp - Driver quit successfully
+2025-09-04 15:56:03 INFO  com.flentas.tests.CareerPageTest - Initializing WebDriver for CareerPageTest...
+2025-09-04 15:56:03 INFO  com.flentas.base.BaseComp - Loading configuration...
+2025-09-04 15:56:03 INFO  com.flentas.base.BaseComp - Browser selected: chrome
+2025-09-04 15:56:04 INFO  com.flentas.base.BaseComp - ChromeDriver initialized
+2025-09-04 15:56:04 DEBUG com.flentas.base.BaseComp - Driver configured with implicit wait: 10s and maximized window
+2025-09-04 15:56:08 INFO  com.flentas.base.BaseComp - Navigated to URL: https://www.flentas.com/
+2025-09-04 15:56:08 INFO  com.flentas.tests.CareerPageTest - Starting test: applyForQaLeadJob
+2025-09-04 15:56:08 DEBUG com.flentas.tests.CareerPageTest - Navigated to HomePage
+2025-09-04 15:56:25 DEBUG com.flentas.tests.CareerPageTest - Clicked on Careers
+2025-09-04 15:56:26 DEBUG com.flentas.tests.CareerPageTest - Clicked on Join Us
+2025-09-04 15:56:27 DEBUG com.flentas.tests.CareerPageTest - Clicked on Browse Jobs
+2025-09-04 15:56:27 INFO  com.flentas.tests.CareerPageTest - Searched for job: QA Lead
+2025-09-04 15:56:28 INFO  com.flentas.tests.CareerPageTest - Opened QA Lead job details
+2025-09-04 15:56:29 INFO  com.flentas.tests.CareerPageTest - Clicked Apply on QA Lead job
+2025-09-04 15:56:29 DEBUG com.flentas.tests.CareerPageTest - Fetched applicant data from CSV
+2025-09-04 15:56:33 INFO  com.flentas.tests.CareerPageTest - Filled application form
+2025-09-04 15:56:41 INFO  com.flentas.tests.CareerPageTest - Submitted application form
+2025-09-04 15:56:42 INFO  com.flentas.tests.CareerPageTest - Received confirmation message: Application Submitted!
+2025-09-04 15:56:42 INFO  com.flentas.tests.CareerPageTest - Assertion passed: Application Submitted!
+2025-09-04 15:56:42 INFO  com.flentas.tests.CareerPageTest - Quitting WebDriver for CareerPageTest...
+2025-09-04 15:56:43 INFO  com.flentas.base.BaseComp - Driver quit successfully
+2025-09-04 15:56:43 INFO  com.flentas.tests.BrokenLinksTest - Initializing WebDriver for BrokenLinksTest...
+2025-09-04 15:56:43 INFO  com.flentas.base.BaseComp - Loading configuration...
+2025-09-04 15:56:43 INFO  com.flentas.base.BaseComp - Browser selected: chrome
+2025-09-04 15:56:43 INFO  com.flentas.base.BaseComp - ChromeDriver initialized
+2025-09-04 15:56:43 DEBUG com.flentas.base.BaseComp - Driver configured with implicit wait: 10s and maximized window
+2025-09-04 15:56:46 INFO  com.flentas.base.BaseComp - Navigated to URL: https://www.flentas.com/
+2025-09-04 15:56:46 INFO  com.flentas.tests.BrokenLinksTest - Navigating to homepage: https://www.flentas.com/
+2025-09-04 15:56:47 INFO  com.flentas.tests.BrokenLinksTest - Starting test: printAllLinksWithResponseCode
+2025-09-04 15:56:47 INFO  com.flentas.tests.BrokenLinksTest - Total links found: 91
+2025-09-04 15:56:48 INFO  com.flentas.tests.BrokenLinksTest - https://www.flentas.com/ - Response Code: 200
+2025-09-04 15:56:48 INFO  com.flentas.tests.BrokenLinksTest - https://www.flentas.com/ - Response Code: 200
+2025-09-04 15:56:48 INFO  com.flentas.tests.BrokenLinksTest - https://www.flentas.com/about - Response Code: 200
+2025-09-04 15:56:48 INFO  com.flentas.tests.BrokenLinksTest - https://www.flentas.com/services - Response Code: 200
+2025-09-04 15:56:48 INFO  com.flentas.tests.BrokenLinksTest - https://www.flentas.com/services/cloud-migration-services-and-solutions - Response Code: 200
+2025-09-04 15:56:48 INFO  com.flentas.tests.BrokenLinksTest - https://www.flentas.com/services/cloud-native-development - Response Code: 200
+2025-09-04 15:56:48 INFO  com.flentas.tests.BrokenLinksTest - https://www.flentas.com/services/big-data - Response Code: 200
+2025-09-04 15:56:48 INFO  com.flentas.tests.BrokenLinksTest - https://www.flentas.com/services/cloud-managed-services - Response Code: 200
+2025-09-04 15:56:48 INFO  com.flentas.tests.BrokenLinksTest - https://www.flentas.com/services/devops - Response Code: 200
+2025-09-04 15:56:48 INFO  com.flentas.tests.BrokenLinksTest - https://www.flentas.com/services/Tech-Resource-Augmentation - Response Code: 200
+2025-09-04 15:56:48 INFO  com.flentas.tests.BrokenLinksTest - https://www.flentas.com/services/generative-ai-services - Response Code: 200
+2025-09-04 15:56:48 INFO  com.flentas.tests.BrokenLinksTest - https://www.flentas.com/services/industrial-iot - Response Code: 200
+2025-09-04 15:56:48 INFO  com.flentas.tests.BrokenLinksTest - https://www.flentas.com/# - Response Code: 200
+2025-09-04 15:56:48 INFO  com.flentas.tests.BrokenLinksTest - https://www.flentas.com/industry/game-backend-development - Response Code: 200
+2025-09-04 15:56:48 INFO  com.flentas.tests.BrokenLinksTest - https://www.flentas.com/industry/gameops - Response Code: 200
+2025-09-04 15:56:48 INFO  com.flentas.tests.BrokenLinksTest - https://www.flentas.com/industry/cloud-for-fintech-financial-services - Response Code: 200
+2025-09-04 15:56:49 INFO  com.flentas.tests.BrokenLinksTest - https://www.flentas.com/# - Response Code: 200
+2025-09-04 15:56:49 INFO  com.flentas.tests.BrokenLinksTest - https://www.flentas.com/aws-partnership/aws-consulting-partner - Response Code: 200
+2025-09-04 15:56:49 INFO  com.flentas.tests.BrokenLinksTest - https://www.flentas.com/micro-site/microsoft-on-aws - Response Code: 200
+2025-09-04 15:56:49 INFO  com.flentas.tests.BrokenLinksTest - https://www.flentas.com/google-partnership/google-consulting-partner - Response Code: 200
+2025-09-04 15:56:49 INFO  com.flentas.tests.BrokenLinksTest - https://www.flentas.com/# - Response Code: 200
+2025-09-04 15:56:49 INFO  com.flentas.tests.BrokenLinksTest - https://www.flentas.com/success-stories - Response Code: 200
+2025-09-04 15:56:49 INFO  com.flentas.tests.BrokenLinksTest - https://www.flentas.com/blogs - Response Code: 200
+2025-09-04 15:56:49 INFO  com.flentas.tests.BrokenLinksTest - https://www.flentas.com/newsroom - Response Code: 200
+2025-09-04 15:56:49 INFO  com.flentas.tests.BrokenLinksTest - https://www.flentas.com/contact - Response Code: 200
+2025-09-04 15:56:49 INFO  com.flentas.tests.BrokenLinksTest - https://www.flentas.com/ - Response Code: 200
+2025-09-04 15:56:49 INFO  com.flentas.tests.BrokenLinksTest - https://www.flentas.com/#0 - Response Code: 200
+2025-09-04 15:56:49 INFO  com.flentas.tests.BrokenLinksTest - https://www.flentas.com/ - Response Code: 200
+2025-09-04 15:56:49 INFO  com.flentas.tests.BrokenLinksTest - https://www.flentas.com/about - Response Code: 200
+2025-09-04 15:56:49 INFO  com.flentas.tests.BrokenLinksTest - https://www.flentas.com/# - Response Code: 200
+2025-09-04 15:56:49 INFO  com.flentas.tests.BrokenLinksTest - https://www.flentas.com/services/cloud-migration-services-and-solutions - Response Code: 200
+2025-09-04 15:56:49 INFO  com.flentas.tests.BrokenLinksTest - https://www.flentas.com/services/cloud-native-development - Response Code: 200
+2025-09-04 15:56:49 INFO  com.flentas.tests.BrokenLinksTest - https://www.flentas.com/services/big-data - Response Code: 200
+2025-09-04 15:56:49 INFO  com.flentas.tests.BrokenLinksTest - https://www.flentas.com/services/cloud-managed-services - Response Code: 200
+2025-09-04 15:56:49 INFO  com.flentas.tests.BrokenLinksTest - https://www.flentas.com/services/devops - Response Code: 200
+2025-09-04 15:56:49 INFO  com.flentas.tests.BrokenLinksTest - https://www.flentas.com/services/Tech-Resource-Augmentation - Response Code: 200
+2025-09-04 15:56:49 INFO  com.flentas.tests.BrokenLinksTest - https://www.flentas.com/services/generative-ai-services - Response Code: 200
+2025-09-04 15:56:49 INFO  com.flentas.tests.BrokenLinksTest - https://www.flentas.com/services/industrial-iot - Response Code: 200
+2025-09-04 15:56:49 INFO  com.flentas.tests.BrokenLinksTest - https://www.flentas.com/# - Response Code: 200
+2025-09-04 15:56:49 INFO  com.flentas.tests.BrokenLinksTest - https://www.flentas.com/industry/game-backend-development - Response Code: 200
+2025-09-04 15:56:49 INFO  com.flentas.tests.BrokenLinksTest - https://www.flentas.com/industry/gameops - Response Code: 200
+2025-09-04 15:56:49 INFO  com.flentas.tests.BrokenLinksTest - https://www.flentas.com/industry/cloud-for-fintech-financial-services - Response Code: 200
+2025-09-04 15:56:49 DEBUG com.flentas.tests.BrokenLinksTest - Skipped empty or null href
+2025-09-04 15:56:49 INFO  com.flentas.tests.BrokenLinksTest - https://www.flentas.com/aws-partnership/aws-consulting-partner - Response Code: 200
+2025-09-04 15:56:49 INFO  com.flentas.tests.BrokenLinksTest - https://www.flentas.com/micro-site/microsoft-on-aws - Response Code: 200
+2025-09-04 15:56:49 INFO  com.flentas.tests.BrokenLinksTest - https://www.flentas.com/google-partnership/google-consulting-partner - Response Code: 200
+2025-09-04 15:56:49 INFO  com.flentas.tests.BrokenLinksTest - https://www.flentas.com/# - Response Code: 200
+2025-09-04 15:56:49 INFO  com.flentas.tests.BrokenLinksTest - https://www.flentas.com/success-stories - Response Code: 200
+2025-09-04 15:56:49 INFO  com.flentas.tests.BrokenLinksTest - https://www.flentas.com/blogs - Response Code: 200
+2025-09-04 15:56:49 INFO  com.flentas.tests.BrokenLinksTest - https://www.flentas.com/newsroom - Response Code: 200
+2025-09-04 15:56:49 INFO  com.flentas.tests.BrokenLinksTest - https://www.flentas.com/career - Response Code: 200
+2025-09-04 15:56:49 INFO  com.flentas.tests.BrokenLinksTest - https://www.flentas.com/contact - Response Code: 200
+2025-09-04 15:56:49 INFO  com.flentas.tests.BrokenLinksTest - https://www.flentas.com/about - Response Code: 200
+2025-09-04 15:56:50 INFO  com.flentas.tests.BrokenLinksTest - https://www.facebook.com/Flentas/ - Response Code: 200
+2025-09-04 15:56:50 INFO  com.flentas.tests.BrokenLinksTest - https://twitter.com/flentastech - Response Code: 403
+2025-09-04 15:56:51 INFO  com.flentas.tests.BrokenLinksTest - https://www.linkedin.com/company/flentas - Response Code: 200
+2025-09-04 15:56:51 INFO  com.flentas.tests.BrokenLinksTest - https://www.flentas.com/#0 - Response Code: 200
+2025-09-04 15:56:51 INFO  com.flentas.tests.BrokenLinksTest - https://www.flentas.com/services/cloud-managed-services - Response Code: 200
+2025-09-04 15:56:51 INFO  com.flentas.tests.BrokenLinksTest - https://www.flentas.com/services/cloud-native-development - Response Code: 200
+2025-09-04 15:56:51 INFO  com.flentas.tests.BrokenLinksTest - https://www.flentas.com/services/cloud-migration - Response Code: 200
+2025-09-04 15:56:51 INFO  com.flentas.tests.BrokenLinksTest - https://www.flentas.com/services/industrial-iot - Response Code: 200
+2025-09-04 15:56:51 INFO  com.flentas.tests.BrokenLinksTest - https://www.flentas.com/services/devops - Response Code: 200
+2025-09-04 15:56:51 INFO  com.flentas.tests.BrokenLinksTest - https://www.flentas.com/services/big-data - Response Code: 200
+2025-09-04 15:56:51 INFO  com.flentas.tests.BrokenLinksTest - https://www.flentas.com/contact - Response Code: 200
+2025-09-04 15:56:51 INFO  com.flentas.tests.BrokenLinksTest - https://www.flentas.com/success-stories/cloud-migration-ludo-king - Response Code: 200
+2025-09-04 15:56:52 INFO  com.flentas.tests.BrokenLinksTest - https://www.flentas.com/success-stories/high-availability-on-cloud-and-disaster-recovery-for-paycraft - Response Code: 200
+2025-09-04 15:56:52 INFO  com.flentas.tests.BrokenLinksTest - https://www.flentas.com/success-stories/360UVZ-Virtual-Reality-Startup-in-UAE - Response Code: 200
+2025-09-04 15:56:52 INFO  com.flentas.tests.BrokenLinksTest - https://www.flentas.com/success-stories - Response Code: 200
+2025-09-04 15:56:52 DEBUG com.flentas.tests.BrokenLinksTest - javascript:void(0) - Skipped (Non-HTTP link)
+2025-09-04 15:56:54 INFO  com.flentas.tests.BrokenLinksTest - https://www.tradequotes.org/Outside-UK/India/C13-160-1-0.htm - Response Code: 200
+2025-09-04 15:56:54 INFO  com.flentas.tests.BrokenLinksTest - https://www.flentas.com/services/cloud-managed-services - Response Code: 200
+2025-09-04 15:56:54 INFO  com.flentas.tests.BrokenLinksTest - https://www.flentas.com/services/cloud-native-development - Response Code: 200
+2025-09-04 15:56:54 INFO  com.flentas.tests.BrokenLinksTest - https://www.flentas.com/services/cloud-migration - Response Code: 200
+2025-09-04 15:56:54 INFO  com.flentas.tests.BrokenLinksTest - https://www.flentas.com/services/industrial-iot - Response Code: 200
+2025-09-04 15:56:54 INFO  com.flentas.tests.BrokenLinksTest - https://www.flentas.com/services/devops - Response Code: 200
+2025-09-04 15:56:54 INFO  com.flentas.tests.BrokenLinksTest - https://www.flentas.com/services/big-data - Response Code: 200
+2025-09-04 15:56:54 INFO  com.flentas.tests.BrokenLinksTest - https://www.flentas.com/services/Tech-Resource-Augmentation - Response Code: 200
+2025-09-04 15:56:54 INFO  com.flentas.tests.BrokenLinksTest - https://www.flentas.com/services/gameops - Response Code: 200
+2025-09-04 15:56:54 INFO  com.flentas.tests.BrokenLinksTest - https://www.flentas.com/success-stories - Response Code: 200
+2025-09-04 15:56:54 INFO  com.flentas.tests.BrokenLinksTest - https://www.flentas.com/blogs - Response Code: 200
+2025-09-04 15:56:54 INFO  com.flentas.tests.BrokenLinksTest - https://www.flentas.com/newsroom - Response Code: 200
+2025-09-04 15:56:54 INFO  com.flentas.tests.BrokenLinksTest - https://www.flentas.com/about - Response Code: 200
+2025-09-04 15:56:54 INFO  com.flentas.tests.BrokenLinksTest - https://www.flentas.com/contact - Response Code: 200
+2025-09-04 15:56:54 INFO  com.flentas.tests.BrokenLinksTest - https://www.flentas.com/career - Response Code: 200
+2025-09-04 15:56:54 INFO  com.flentas.tests.BrokenLinksTest - https://www.flentas.com/terms-and-conditions - Response Code: 200
+2025-09-04 15:56:54 INFO  com.flentas.tests.BrokenLinksTest - https://www.flentas.com/privacy-policy - Response Code: 200
+2025-09-04 15:56:54 INFO  com.flentas.tests.BrokenLinksTest - https://www.flentas.com/refund-policy - Response Code: 200
+2025-09-04 15:56:55 INFO  com.flentas.tests.BrokenLinksTest - https://www.facebook.com/Flentas/ - Response Code: 200
+2025-09-04 15:56:55 INFO  com.flentas.tests.BrokenLinksTest - https://twitter.com/flentastech - Response Code: 403
+2025-09-04 15:56:56 INFO  com.flentas.tests.BrokenLinksTest - https://www.linkedin.com/company/flentas - Response Code: 200
+2025-09-04 15:56:56 DEBUG com.flentas.tests.BrokenLinksTest - mailto:sales@flentas.com - Skipped (Non-HTTP link)
+2025-09-04 15:56:56 INFO  com.flentas.tests.BrokenLinksTest - Assertion passed: No broken internal links found
+2025-09-04 15:56:56 INFO  com.flentas.tests.BrokenLinksTest - Quitting WebDriver for BrokenLinksTest...
+2025-09-04 15:56:56 INFO  com.flentas.base.BaseComp - Driver quit successfully
+2025-09-04 15:56:56 INFO  com.flentas.tests.FindBlogTest - Initializing WebDriver for FindBlogTest...
+2025-09-04 15:56:56 INFO  com.flentas.base.BaseComp - Loading configuration...
+2025-09-04 15:56:56 INFO  com.flentas.base.BaseComp - Browser selected: chrome
+2025-09-04 15:56:57 INFO  com.flentas.base.BaseComp - ChromeDriver initialized
+2025-09-04 15:56:57 DEBUG com.flentas.base.BaseComp - Driver configured with implicit wait: 10s and maximized window
+2025-09-04 15:56:59 INFO  com.flentas.base.BaseComp - Navigated to URL: https://www.flentas.com/
+2025-09-04 15:56:59 INFO  com.flentas.tests.FindBlogTest - HomePage and BlogsPage initialized
+2025-09-04 15:56:59 INFO  com.flentas.tests.FindBlogTest - Starting test: findAndOpenBlog
+2025-09-04 15:57:07 INFO  com.flentas.tests.FindBlogTest - Navigated to Blogs section
+2025-09-04 15:57:08 INFO  com.flentas.tests.FindBlogTest - Clicked on blog link
+2025-09-04 15:57:08 INFO  com.flentas.tests.FindBlogTest - Switched to child window
+2025-09-04 15:57:09 INFO  com.flentas.tests.FindBlogTest - Fetched blog title: Indian Cloud Gaming Industry | Mobile Multiplayer Game Dev
+2025-09-04 15:57:09 INFO  com.flentas.tests.FindBlogTest - Blog title verification passed
+2025-09-04 15:57:09 INFO  com.flentas.tests.FindBlogTest - Quitting WebDriver for FindBlogTest...
+2025-09-04 15:57:09 INFO  com.flentas.base.BaseComp - Driver quit successfully
+2025-09-04 15:57:09 INFO  com.flentas.tests.CheckServicesTest - Starting test: validateAllServicesTitles
+2025-09-04 15:57:09 INFO  com.flentas.base.BaseComp - Loading configuration...
+2025-09-04 15:57:09 INFO  com.flentas.base.BaseComp - Browser selected: chrome
+2025-09-04 15:57:10 INFO  com.flentas.base.BaseComp - ChromeDriver initialized
+2025-09-04 15:57:10 DEBUG com.flentas.base.BaseComp - Driver configured with implicit wait: 10s and maximized window
+2025-09-04 15:57:13 INFO  com.flentas.base.BaseComp - Navigated to URL: https://www.flentas.com/
+2025-09-04 15:57:13 INFO  com.flentas.tests.CheckServicesTest - WebDriver initialized
+2025-09-04 15:57:13 DEBUG com.flentas.tests.CheckServicesTest - Navigated to ServicesPage
+2025-09-04 15:57:13 INFO  com.flentas.tests.CheckServicesTest - Expected service titles: [Managed cloud service provider and Infrastructure | Flentas, Top AWS DevOps Services | Expert DevOps Consulting in Pune and UAE, Tech Resource Augmentation - IT Staff augmentation | Flentas]
+2025-09-04 15:57:17 INFO  com.flentas.tests.CheckServicesTest - Actual service titles: [Managed cloud service provider and Infrastructure | Flentas, Top AWS DevOps Services | Expert DevOps Consulting in Pune and UAE, Tech Resource Augmentation - IT Staff augmentation | Flentas]
+2025-09-04 15:57:17 INFO  com.flentas.tests.CheckServicesTest - All service titles validated successfully
+2025-09-04 15:57:17 INFO  com.flentas.tests.CheckServicesTest - Quitting WebDriver for CheckServicesTest...
+2025-09-04 15:57:17 INFO  com.flentas.base.BaseComp - Driver quit successfully
+2025-09-04 15:57:17 INFO  com.flentas.tests.ContactFormTest - Initializing WebDriver for ContactFormTest...
+2025-09-04 15:57:17 INFO  com.flentas.base.BaseComp - Loading configuration...
+2025-09-04 15:57:17 INFO  com.flentas.base.BaseComp - Browser selected: chrome
+2025-09-04 15:57:18 INFO  com.flentas.base.BaseComp - ChromeDriver initialized
+2025-09-04 15:57:18 DEBUG com.flentas.base.BaseComp - Driver configured with implicit wait: 10s and maximized window
+2025-09-04 15:57:21 INFO  com.flentas.base.BaseComp - Navigated to URL: https://www.flentas.com/
+2025-09-04 15:57:21 INFO  com.flentas.tests.ContactFormTest - Navigating to Contact page...
+2025-09-04 15:57:22 INFO  com.flentas.tests.ContactFormTest - Running positive form submission test for: Test QA
+2025-09-04 15:57:22 DEBUG com.flentas.tests.ContactFormTest - Name field is visible
+2025-09-04 15:57:23 INFO  com.flentas.tests.ContactFormTest - Filled form with valid data: Test QA, Test.qa@example.com, flentas, 9876543210, This is a test message generated by automation script.
+2025-09-04 15:57:24 DEBUG com.flentas.tests.ContactFormTest - Submit button is clickable
+2025-09-04 15:57:25 ERROR com.flentas.tests.ContactFormTest - Unexpected exception during positive form submission: element click intercepted: Element is not clickable at point (930, 626)
+  (Session info: chrome=139.0.7258.155)
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c1c15ac827cfa54e606cfdf196053705, clickElement {id=f.6BA4BCCC55211630758C9E763A036F84.d.F766C272E8116E28DCAF95B883A8D8AC.e.1763}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.155, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63408}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63408/devtoo..., se:cdpVersion: 139.0.7258.155, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (c1c15ac827cfa54e606cfdf196053705)] -> id: submitForm2]
+Session ID: c1c15ac827cfa54e606cfdf196053705
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (930, 626)
+  (Session info: chrome=139.0.7258.155)
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c1c15ac827cfa54e606cfdf196053705, clickElement {id=f.6BA4BCCC55211630758C9E763A036F84.d.F766C272E8116E28DCAF95B883A8D8AC.e.1763}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.155, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63408}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63408/devtoo..., se:cdpVersion: 139.0.7258.155, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (c1c15ac827cfa54e606cfdf196053705)] -> id: submitForm2]
+Session ID: c1c15ac827cfa54e606cfdf196053705
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy32.click(Unknown Source)
+	at com.flentas.utils.TestUtil.clickElement(TestUtil.java:65)
+	at com.flentas.pages.ContactPage.submitForm(ContactPage.java:66)
+	at com.flentas.tests.ContactFormTest.testPositiveFormSubmission(ContactFormTest.java:50)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+2025-09-04 15:57:26 DEBUG com.flentas.tests.ContactFormTest - Page refreshed for next iteration
+2025-09-04 15:57:26 ERROR io.qameta.allure.AllureLifecycle - Could not add attachment: no test is running
+2025-09-04 15:57:26 INFO  com.flentas.tests.ContactFormTest - Running positive form submission test for: John Doe
+2025-09-04 15:57:26 DEBUG com.flentas.tests.ContactFormTest - Name field is visible
+2025-09-04 15:57:28 INFO  com.flentas.tests.ContactFormTest - Filled form with valid data: John Doe, john.doe@example.com, flentas, 1234567890, Please contact me regarding services. This is a test message generated by automation script.
+2025-09-04 15:57:38 ERROR com.flentas.tests.ContactFormTest - Unexpected exception during positive form submission: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on windows (c1c15ac827cfa54e606cfdf196053705)] -> id: submitForm2] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.155, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63408}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63408/devtoo..., se:cdpVersion: 139.0.7258.155, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c1c15ac827cfa54e606cfdf196053705
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on windows (c1c15ac827cfa54e606cfdf196053705)] -> id: submitForm2] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.155, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63408}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63408/devtoo..., se:cdpVersion: 139.0.7258.155, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c1c15ac827cfa54e606cfdf196053705
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.flentas.tests.ContactFormTest.testPositiveFormSubmission(ContactFormTest.java:47)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+2025-09-04 15:57:38 DEBUG com.flentas.tests.ContactFormTest - Page refreshed for next iteration
+2025-09-04 15:57:39 ERROR io.qameta.allure.AllureLifecycle - Could not add attachment: no test is running
+2025-09-04 15:57:39 INFO  com.flentas.tests.ContactFormTest - Running negative form validation test for: , invalid@
+2025-09-04 15:57:40 INFO  com.flentas.tests.ContactFormTest - Filled form with invalid data
+2025-09-04 15:57:45 INFO  com.flentas.tests.ContactFormTest - Validation triggered correctly. Submit button remained disabled for: , invalid@
+2025-09-04 15:57:46 DEBUG com.flentas.tests.ContactFormTest - Page refreshed for next iteration
+2025-09-04 15:57:46 INFO  com.flentas.tests.ContactFormTest - Running negative form validation test for: , 
+2025-09-04 15:57:47 INFO  com.flentas.tests.ContactFormTest - Filled form with invalid data
+2025-09-04 15:57:52 INFO  com.flentas.tests.ContactFormTest - Validation triggered correctly. Submit button remained disabled for: , 
+2025-09-04 15:57:53 DEBUG com.flentas.tests.ContactFormTest - Page refreshed for next iteration
+2025-09-04 15:57:53 INFO  com.flentas.tests.ContactFormTest - Running negative form validation test for: Test, Test@
+2025-09-04 15:57:54 INFO  com.flentas.tests.ContactFormTest - Filled form with invalid data
+2025-09-04 15:57:59 INFO  com.flentas.tests.ContactFormTest - Validation triggered correctly. Submit button remained disabled for: Test, Test@
+2025-09-04 15:58:00 DEBUG com.flentas.tests.ContactFormTest - Page refreshed for next iteration
+2025-09-04 15:58:00 INFO  com.flentas.tests.ContactFormTest - Running negative form validation test for: Invalid Email, invalid-email
+2025-09-04 15:58:01 INFO  com.flentas.tests.ContactFormTest - Filled form with invalid data
+2025-09-04 15:58:07 ERROR com.flentas.tests.ContactFormTest - Submit button was enabled despite invalid data: Invalid Email, invalid-email
+2025-09-04 15:58:07 DEBUG com.flentas.tests.ContactFormTest - Page refreshed for next iteration
+2025-09-04 15:58:08 ERROR io.qameta.allure.AllureLifecycle - Could not add attachment: no test is running
+2025-09-04 15:58:08 INFO  com.flentas.tests.ContactFormTest - Running negative form validation test for: Invalid Name, test@test.com
+2025-09-04 15:58:09 INFO  com.flentas.tests.ContactFormTest - Filled form with invalid data
+2025-09-04 15:58:14 INFO  com.flentas.tests.ContactFormTest - Validation triggered correctly. Submit button remained disabled for: Invalid Name, test@test.com
+2025-09-04 15:58:15 DEBUG com.flentas.tests.ContactFormTest - Page refreshed for next iteration
+2025-09-04 15:58:15 INFO  com.flentas.tests.ContactFormTest - Quitting WebDriver for ContactFormTest...
+2025-09-04 15:58:15 INFO  com.flentas.base.BaseComp - Driver quit successfully

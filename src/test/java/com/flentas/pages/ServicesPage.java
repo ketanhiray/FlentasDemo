@@ -3,8 +3,10 @@ package com.flentas.pages;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 
 public class ServicesPage {
@@ -21,12 +23,14 @@ public class ServicesPage {
 	// Get all service URLs
 	public List<String> getAllServiceUrls() {
 		List<String> urls = new ArrayList<>();
-		driver.findElements(org.openqa.selenium.By.xpath(serviceLinksXpath)).forEach(link -> {
+		List<WebElement> links = driver.findElements(By.xpath(serviceLinksXpath));
+
+		for (WebElement link : links) {
 			String href = link.getAttribute("href");
-			if (href != null && !href.isEmpty())
+			if (href != null && !href.isEmpty()) {
 				urls.add(href);
-		});
-		System.out.println("Total Services Found: " + urls.size());
+			}
+		}
 		return urls;
 	}
 

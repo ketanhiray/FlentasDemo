@@ -1,0 +1,1 @@
+{"uuid":"78e59a58-116c-45d3-b6fb-c8e15f01e399","name":"com.flentas.tests.CheckServicesTest","children":["e8c6bf87-b0b2-4e30-86ec-93e2a90eeaca"],"befores":[],"afters":[{"name":"tearDown","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1756981637372,"stop":1756981637644}],"start":1756981629727,"stop":1756981637644}
