@@ -13,5 +13,5 @@ TestCases & Workflow Included in this repo:
 
 
 ****************************For-Run-TestScript*********************************
-#Run:End2EndTesting.xml file for Sequence
-#Run:End2EndTestingPara.xml file for Parallel
+****************************#Run:End2EndTesting.xml file for Sequence
+****************************#Run:End2EndTestingPara.xml file for Parallel
