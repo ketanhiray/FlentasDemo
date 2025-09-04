@@ -10,3 +10,8 @@ TestCases & Workflow Included in this repo:
 
 5: TC_5	Contact us	Contact us  >> Form Validation >> Possitive and Negative Validation
 
+
+
+****************************For-Run-TestScript*********************************
+#Run:End2EndTesting.xml file for Sequence
+#Run:End2EndTestingPara.xml file for Parallel
